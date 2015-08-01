@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mrs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    
+    <application
+        android:name=".ParseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/globalmrs"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddPatientActivity"
+            android:label="@string/title_activity_add_patient" >
+        </activity>
+        <activity
+            android:name=".AddDoctorActivity"
+            android:label="@string/title_activity_add_doctor" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".OperatorActivity"
+            android:label="@string/title_activity_operator" >
+        </activity>
+        <activity
+            android:name=".VisitDetails"
+            android:label="@string/title_activity_visit_details" >
+        </activity>
+        <activity
+            android:name=".CurrentDoctorAppointments"
+            android:label="@string/title_activity_current_doctor_appointments" >
+        </activity>
+        <activity
+            android:name=".DoctorPatientSearchActivity"
+            android:label="@string/title_activity_doctor_patient_search" >
+        </activity>
+        <activity
+            android:name=".DoctorCheckPatientHistory"
+            android:label="@string/title_activity_doctor_check_patient_history" >
+        </activity>
+        <activity
+            android:name=".PatientViewOwnMedicalHistory"
+            android:label="@string/title_activity_patient_view_own_medical_history" >
+        </activity>
+        <activity
+            android:name=".PatientSearchDisease"
+            android:label="@string/title_activity_patient_search_disease" >
+        </activity>
+        <activity
+            android:name=".PatientDiseaseDetails"
+            android:label="@string/title_activity_patient_disease_details" >
+        </activity>
+        <activity
+            android:name=".PatientShowMedications"
+            android:label="@string/title_activity_patient_show_medications" >
+        </activity>
+        <activity
+            android:name=".SearchByManager"
+            android:label="SearchByManager" >
+        </activity>
+        <activity
+            android:name=".UpdateMedicalRecordsByDoc"
+            android:label="@string/title_activity_update_medical_records_by_doc" >
+        </activity>
+        <activity
+            android:name=".SearchDoctorByManager"
+            android:label="@string/title_activity_search_doctor_by_manager" >
+        </activity>
+        <activity
+            android:name=".UpdateDoctorByManager"
+            android:label="@string/title_activity_update_doctor_by_manager" >
+        </activity>
+        <activity
+            android:name=".EditPatientDetails"
+            android:label="@string/title_activity_edit_patient_details" >
+        </activity>
+        <activity
+            android:name=".EditDoctorDetails"
+            android:label="@string/title_activity_edit_doctor_details" >
+        </activity>
+        <activity
+            android:name=".AddOperatorActivity"
+            android:label="@string/title_activity_add_operator" >
+        </activity>
+        <activity
+            android:name=".SearchPatientByAdmin"
+            android:label="@string/title_activity_search_patient_by_admin" >
+        </activity>
+        <activity
+            android:name=".SearchDoctorByAdmin"
+            android:label="@string/title_activity_search_doctor_by_admin" >
+        </activity>
+        <activity
+            android:name=".UpdateMedSympByAdmin"
+            android:label="@string/title_activity_update_med_symp_by_admin" >
+        </activity>
+           <activity
+            android:name=".CameraActivity"
+            android:label="Camera Activity" >
+        </activity>
+    </application>
+
+</manifest>

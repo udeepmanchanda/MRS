@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mrs.CurrentDoctorAppointments" >
+
+    <item
+        android:id="@+id/searchPatientMenu"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/action_search"
+        android:title="Search Patient"/>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"/>
+
+</menu>

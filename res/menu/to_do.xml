@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.inclass08.ToDoActivity" >
+
+    <item
+        android:id="@+id/action_add_patient"
+        android:orderInCategory="99"
+        android:showAsAction="always"
+        android:title="Add Patient"
+        android:icon="@drawable/social_add_person"/>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"/>
+
+</menu>

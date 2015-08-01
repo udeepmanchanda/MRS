@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.inclass08.ToDoActivity" >
+
+    <item
+        android:id="@+id/action_add_operator"
+        android:orderInCategory="99"
+        android:showAsAction="never"
+        android:title="Add Operator"/>
+    <item
+        android:id="@+id/action_add_doctor"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Add Doctor"/>
+    <item
+        android:id="@+id/action_search_doctor"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Search Doctor"/>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="Logout"/>
+
+</menu>

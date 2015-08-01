@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mrs.PatientViewOwnMedicalHistory" >
+
+     <item
+        android:id="@+id/searchMedicationMenu"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/action_search"
+        android:title="Search Medication"/>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"/>
+</menu>

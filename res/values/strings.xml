@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MRS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_patient">Add Patient Activity</string>
+    <string name="title_activity_add_doctor">Add Doctor Activity</string>
+    <string name="title_activity_search">Search Activity</string>
+    <string name="title_activity_login">Login Activity</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="role">Role</string>
+    <string name="login">Login</string>
+    <string name="reset">Reset</string>
+    <string name="searchPatients">Search Patients</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="contactNumber">Contact Number</string>
+    <string name="address1">Address 1</string>
+    <string name="address2">Address 2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="zip">Zip</string>
+    <string name="submit">Submit</string>
+    <string name="go">Go</string>
+    <string name="speciality">Speciality</string>
+    <string name="hospitalName">Hospital Name</string>
+    <string name="roomNumber">Room Number</string>
+    <string name="title_activity_operator">OperatorActivity</string>
+    <string name="title_activity_visit_details">VisitDetails</string>
+    <string name="title_activity_current_doctor_appointments">CurrentDoctorAppointments</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_doctor_patient_search">PatientSearchActivity</string>
+    <string name="title_activity_doctor_check_patient_history">DoctorCheckPatientHistory</string>
+    <string name="title_activity_patient_view_own_medical_history">PatientViewOwnMedicalHistory</string>
+    <string name="title_activity_patient_search_disease">PatientSearchDisease</string>
+    <string name="title_activity_patient_disease_details">PatientDiseaseDetails</string>
+    <string name="title_activity_patient_show_medications">PatientShowMedications</string>
+    <string name="title_activity_update_medical_records_by_doc">UpdateMedicalRecordsByDoc</string>
+    <string name="title_activity_search_doctor_by_manager">SearchDoctorByManager</string>
+    <string name="title_activity_update_doctor_by_manager">UpdateDoctorByManager</string>
+    <string name="title_activity_edit_patient_details">EditPatientDetails</string>
+    <string name="title_activity_edit_doctor_details">EditDoctorDetails</string>
+    <string name="title_activity_add_operator">AddOperatorActivity</string>
+    <string name="title_activity_search_patient_by_admin">SearchPatientByAdmin</string>
+    <string name="title_activity_search_doctor_by_admin">SearchDoctorByAdmin</string>
+    <string name="title_activity_update_med_symp_by_admin">UpdateMedSympByAdmin</string>
+
+</resources>
